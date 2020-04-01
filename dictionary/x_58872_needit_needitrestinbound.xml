@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="NeeditRestInbound" max_length="40" name="x_58872_needit_needitrestinbound" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_assigned_to" label="Assigned to" max_length="100" name="u_assigned_to" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_due_date" label="Due date" max_length="40" name="u_due_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_requested_for" label="Requested for" max_length="100" name="u_requested_for" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_short_description" label="Short description" max_length="1000" name="u_short_description" type="string"/>
+    </element>
+</database>
